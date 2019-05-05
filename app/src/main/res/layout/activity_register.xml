@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:src="@drawable/prs_logo" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/user_id__icon_size"
+        android:hint="@string/user_id"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/fit_icon_size"
+        android:hint="@string/user_name"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/email_icon_"
+        android:hint="@string/e_mail"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/icons_password_"
+        android:hint="@string/password"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/icons_password_"
+        android:hint="@string/confirm_password"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/cnic_icon_"
+        android:hint="@string/cnic"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/home_address_icon_"
+        android:hint="@string/address"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/postal_area_icon_"
+        android:hint="@string/post_area"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#123456"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/already_member"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/goto_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/sign_in_here"
+        android:textColor="#CD04045C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+
+</LinearLayout>

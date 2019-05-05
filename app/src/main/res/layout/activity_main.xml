@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75123456"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/prs_logo"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:text="@string/person_recognition_system"
+        android:textStyle="bold"
+        android:textSize="25dp"
+ android:layout_marginTop="20dp"
+        android:textColor="#B10821"
+        />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:drawableLeft="@drawable/fit_icon_size"
+        android:hint="@string/user_id"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/icons_password_"
+        android:hint="**********"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#123456"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/remember" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/need_an_account"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Sign Up here !"
+        android:textColor="#CD04045C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/goto_sign_up"
+        />
+
+</LinearLayout>

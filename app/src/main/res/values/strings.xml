@@ -4,7 +4,7 @@
     <string name="password">Password</string>
     <string name="sign_up">Sign Up</string>
     <string name="skip">Skip</string>
-    <string name="user_id">User ID</string>
+    <string name="user_id">user id</string>
     <string name="user_password">Password</string>
     <string name="need_an_account">Need an account ?</string>
     <string name="remember">Remember</string>
@@ -18,4 +18,25 @@
     <string name="already_member">Already Member ?</string>
     <string name="sign_in_here">Sign in here !</string>
     <string name="person_recognition_system">Person Recognition System</string>
+    <string name="search">Search</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="open_gallery">Open Gallery</string>
+    <string name="data_found">Data Found !</string>
+    <string name="person_name">Shafqat Nadeem</string>
+    <string name="person_father_name">Allah Wasaya Nadeem</string>
+    <string name="person_cnic">32102-4648995-1</string>
+    <string name="person_address">Dha Lahore house Number #5, P/O Shah Sadar Din</string>
+    <string name="person_guardian_contact">03026971728</string>
+    <string name="person_recent_desease">Diarrhea</string>
+    <string name="person_blood_group">A+</string>
+    <string name="person_age">20 years</string>
+
+    <string-array name="search_as">
+        <item>Rescued Person</item>
+        <item>Missing Person</item>
+    </string-array>
+    <string-array name="sign_in_as">
+        <item>Rescuer</item>
+        <item>Police Operator</item>
+    </string-array>
 </resources>

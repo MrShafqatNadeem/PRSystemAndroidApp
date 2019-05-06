@@ -4,6 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#123456"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
     tools:context=".SearchActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:src="@drawable/prs_logo" />
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:background="#026159"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        app:corner_radius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            >
+
+            <Button
+                android:id="@+id/imageButton"
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:drawableTop="@drawable/camera_icon"
+                android:text="@string/open_camera"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="top"
+                android:text="Choose Picture"
+                android:textAlignment="center"
+                android:textColor="#FC9E033A"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:drawableTop="@drawable/gallery_icon"
+                android:text="@string/open_gallery"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:textAlignment="center"></Spinner>
+
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:id="@+id/searcch_button"
+            android:layout_marginTop="10dp"
+            android:background="#123456"
+            android:text="@string/search"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
 </LinearLayout>

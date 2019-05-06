@@ -3,60 +3,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#75123456"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#123456"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:src="@drawable/prs_logo"
-        android:layout_marginTop="30dp"
-        />
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/prs_logo" />
+
     <TextView
         android:layout_width="320dp"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp"
         android:text="@string/person_recognition_system"
-        android:textStyle="bold"
-        android:textSize="25dp"
- android:layout_marginTop="20dp"
         android:textColor="#B10821"
-        />
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
-    <EditText
-        android:layout_width="280dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="25dp"
-        android:drawableLeft="@drawable/fit_icon_size"
-        android:hint="@string/user_id"
-        android:textAlignment="center"
-        android:textSize="25dp" />
-
-    <EditText
-        android:layout_width="280dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:drawableLeft="@drawable/icons_password_"
-        android:hint="**********"
-        android:textAlignment="center"
-        android:textSize="25dp" />
-
-    <Button
-        android:layout_width="280dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:background="#123456"
-        android:text="@string/login"
-        android:textAllCaps="false"
-        android:textColor="#ffffff"
-        android:textSize="25sp" />
-
-    <CheckBox
-        android:layout_width="wrap_content"
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="@string/remember" />
+        android:background="#008B80"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:corner_radius="20dp"
+        >
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:drawableLeft="@drawable/fit_icon_size"
+            android:hint="@string/user_id"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:background="#ffffff"
+            />
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="7dp"
+            android:drawableLeft="@drawable/icons_password_"
+            android:hint="**********"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:background="#ffffff"
+            />
+
+        <Spinner
+            android:id="@+id/sign_as"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:background="#ffffff"
+            >
+
+        </Spinner>
+
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#123456"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/remember" />
+
+
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -66,14 +95,13 @@
         android:textSize="20sp" />
 
     <TextView
+        android:id="@+id/goto_sign_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="Sign Up here !"
         android:textColor="#CD04045C"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:id="@+id/goto_sign_up"
-        />
+        android:textStyle="bold" />
 
 </LinearLayout>

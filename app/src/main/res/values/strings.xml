@@ -30,6 +30,8 @@
     <string name="person_recent_desease">Diarrhea</string>
     <string name="person_blood_group">A+</string>
     <string name="person_age">20 years</string>
+    <string name="enter_data">Enter data</string>
+    <string name="choose_one">Choose one</string>
 
     <string-array name="search_as">
         <item>Rescued Person</item>
